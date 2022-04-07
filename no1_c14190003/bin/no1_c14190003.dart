@@ -30,10 +30,13 @@ void main(List<String> arguments) {
       }
       print("");
     }
-  } else {
+  } 
+  else {
+    //get char dari sebuah string
     int counter = 0;
     List<String> temp = inputs.split('');
     // print(temp);
+    //Segitiga Atas
     for (int i = 1; i <= l; i++) {
       for (int j = i; j < l; j++) {
         stdout.write(" ");
@@ -52,6 +55,7 @@ void main(List<String> arguments) {
       }
       print("");
     }
+    //Segitiga Bawah
     for (int i = l - 1; i >= 1; i--) {
       for (int j = i; j < l; j++) {
         stdout.write(" ");
